@@ -4,8 +4,7 @@ This repo demonstrates processing streaming data sources such as AWS Kinesis or 
 <br>
 
 ### Pipeline
-![alt text]()
-(To be continue)
+![alt text](https://github.com/MinThuraZaw/Spark-Structured-Streaming-in-Databricks/blob/main/images/structured_streaming.jpg)
 
 <br>
 
