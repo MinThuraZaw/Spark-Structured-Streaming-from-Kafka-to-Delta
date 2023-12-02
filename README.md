@@ -9,13 +9,15 @@
 <br>
 
 ### Requirements
-1) Kinesis Data Stream
-2) Databricks
-3) Delta Sharing
+1) Kinesis Source
+2) Kafka Source
+3) Databricks (single-user cluster for streaming source)
+4) Delta Sharing (open-sharing for PowerBI)
 (To be continue)
 
 **Languages**
 * PySpark
+* Databricks SQL
 
 
 <br>
