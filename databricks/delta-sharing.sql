@@ -11,4 +11,20 @@ DESCRIBE RECIPIENT demo-data-analyst;
 
 -- COMMAND ----------
 
-CREATE SHARE IF NOT EXISTS demo_streaming_kinesis
+CREATE SHARE IF NOT EXISTS demo_streaming_table
+
+-- COMMAND ----------
+
+ALTER SHARE demo_streaming_table ADD SCHEMA demo_catalog.demo_schema;
+
+-- COMMAND ----------
+
+GRANT SELECT ON SHARE demo_streaming_table TO RECIPIENT demo-data-analyst;
+
+-- COMMAND ----------
+
+SHOW GRANT ON SHARE demo_streaming_table;
+
+-- COMMAND ----------
+
+--
