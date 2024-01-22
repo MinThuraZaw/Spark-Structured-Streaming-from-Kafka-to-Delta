@@ -1,5 +1,5 @@
 ### About
-This repo demonstrates processing streaming data sources such as AWS Kinesis in Databricks with Spark's Structured Streaming. Store the data in delta table and share it with others with Delta Sharing provided by Databricks.
+This repo demonstrates processing streaming data sources such as AWS Kinesis in Databricks with Spark's Structured Streaming in Scala. Store the data in delta table and share it with others with Delta Sharing provided by Databricks.
 
 <br>
 
@@ -15,9 +15,6 @@ This repo demonstrates processing streaming data sources such as AWS Kinesis in 
 
 
 **Languages**
-* PySpark
+* Spark (Scala)
 * Databricks SQL
-
-
-<br>
 
