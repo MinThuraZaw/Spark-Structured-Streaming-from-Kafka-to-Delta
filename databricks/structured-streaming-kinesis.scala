@@ -4,31 +4,19 @@ import org.apache.spark.sql.functions._
 
 // COMMAND ----------
 
-id"),
-    col("dtm").alias("timestamp"),
-    col("tz").alias("device_timezone"),
-    col("res").alias("device_screenresolution"),
-    col("uid").alias("user_id"),
-    col("p").alias("app_platform"),
-    col("se_ac").alias("event_id"),
-    col("se_pr").alias("property"),
-    col("se_va").alias("value")
-
-// COMMAND ----------
-
-// MAGIC %sql
-// MAGIC create or replace table demo_catalog.demo_schema.kinesis_raw_events 
-// MAGIC (
-// MAGIC   id string,
-// MAGIC   timestamp string,
-// MAGIC   device_timezone string,
-// MAGIC   device_screenresolution string,
-// MAGIC   user_id string,
-// MAGIC   app_platform string,
-// MAGIC   event_type string,
-// MAGIC   property string,
-// MAGIC   value string
-// MAGIC )
+// %sql
+// create or replace table demo_catalog.demo_schema.kinesis_raw_events 
+// (
+//   id string,
+//   timestamp string,
+//   device_timezone string,
+//   device_screenresolution string,
+//   user_id string,
+//   app_platform string,
+//   event_type string,
+//   property string,
+//   value string
+// )
 
 // COMMAND ----------
 
